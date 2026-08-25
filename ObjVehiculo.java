@@ -2,7 +2,7 @@ public class ObjVehiculo {
     private String Vehiculo;
     private String Propietario;
     private String tipo;
-    private String Plan;
+    private int Plan;
     private int ValorPlan;
     private int descuento;
     private int TotalPagar;
@@ -49,7 +49,7 @@ public class ObjVehiculo {
         return Plan;
     }
 
-    public void setPlan(String plan) {
+    public void setPlan(int plan) {
         Plan = plan;
     }
 
